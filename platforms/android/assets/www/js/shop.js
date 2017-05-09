@@ -2,9 +2,10 @@
  * NightPlex
  */
 
-function Product(name, quantity) {
+function Product(name, quantity, nickname) {
     this.name = name;
     this.quantity = quantity;
+    this.nickname = nickname;
 }
 
 
@@ -19,11 +20,29 @@ if (nickname == null) {
 }
 
 
-//Add specific list to lists.
+//Get shop  products from backend (API)
 
+function getByNicknameFromServe(nickname) {
+    $.ajax({
+        type: 'GET',
+        url: 'http://localhost:8080/api/' + nickname,
+        dataType: "json",
+        success: function (data) {
+           var listProducts = getListFromStorage();
+           for(var i = 0; i < data.length; i++) {
+               listProducts.push(new Product(data[i].name,data[i].quantity,data[i].nickname))
+           }
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+        }
+    });
+}
+alert("test");
+//Add specific list to lists.
 function writeListToPage() {
 
     $("#get-all-products").html("");
+    getByNicknameFromServe(nickname);
 
     var products = getListFromStorage();
 
@@ -36,7 +55,7 @@ function writeListToPage() {
             '<li class="swipeout">' +
             '<div class="swipeout-content item-content">' +
             '<div class="post_entry">' +
-            '<div class="post_thumb"><img onclick="capturePhoto();" src="images/photos/photo8.jpg" alt="" title="" id="'+ products[i].name +'" onclick=""/></div>' +
+            '<div class="post_thumb"><img onclick="capturePhoto();" src="images/photos/photo8.jpg" alt="" title="" id="testing123" onclick=""/></div>' +
             '<div class="post_details">' +
             '<h2>' + products[i].name + '  ' + products[i].quantity + 'x</h2>' +
             '<span class="post_author">by <a href="#">' + nickname + '</a></span>' +
@@ -93,7 +112,9 @@ function addNewProductToStorage(newProduct) {
     //First let us check if item already exists.
 
     // Using map to find index
-    var duplicateProductIndex = listArray.map(function (item) { return item.name; }).indexOf(newProduct.name);
+    var duplicateProductIndex = listArray.map(function (item) {
+        return item.name;
+    }).indexOf(newProduct.name);
     if (duplicateProductIndex > -1) {
         listArray[duplicateProductIndex].quantity += newProduct.quantity;
     } else {
@@ -128,6 +149,7 @@ function setNickname() {
 //Photo related stuff:
 //Start of camera function::
 function capturePhoto() {
+    alert("plappla")
     navigator.camera.getPicture(onSuccess, onFail, {
         quality: 50,
         destinationType: Camera.DestinationType.FILE_URI
@@ -136,7 +158,9 @@ function capturePhoto() {
 
 function onSuccess(imageURI) {
 
-    $("#testImg").src = imageURI;
+    alert(imageURI);
+    $("#maybe").append("<img src='"+ imageURI +"'/>");
+    alert("oonSuccess");
 }
 
 function onFail(message) {
@@ -154,10 +178,10 @@ $$(document).on('pageInit', function (e) {
         var name = $("#add-new-shop-list-name").val();
         var quantity = $("#add-new-shop-list-number").val();
 
-        if(validateData(name, quantity)) {
-            var newProduct = new Product((name), parseInt(quantity));
+        if (validateData(name, quantity)) {
+            var newProduct = new Product((name), parseInt(quantity), nickname);
             addNewProductToStorage(newProduct);
-        }else {
+        } else {
             $("#add-new-shop-list-name").val("");
         }
 
@@ -174,13 +198,13 @@ $$(document).on('pageInit', function (e) {
 
 //Validation
 function validateData(name, amount) {
-    if(name.length < 1) {
+    if (name.length < 1) {
         $("#hidden-validation-name").text("Name must be at least 1 character long.");
         $("#hidden-validation-name").show().delay(3000).fadeOut();
         return false;
     }
-    if(!isInt(amount)) {
-        $("#hidden-validation-quantity").text("Amount must be inserted");
+    if (!isInt(amount) || amount < 1) {
+        $("#hidden-validation-quantity").text("Amount must be higher than 0");
         $("#hidden-validation-quantity").show().delay(3000).fadeOut();
         return false;
     }
