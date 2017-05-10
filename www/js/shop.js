@@ -2,15 +2,18 @@
  * NightPlex
  */
 
-//Constructor for shop items
-function Product(name, quantity) {
+function Product(name, quantity, nickname) {
     this.name = name;
     this.quantity = quantity;
+    this.nickname = nickname;
 }
 
 
 //nickname for API
 var nickname = window.localStorage.getItem("nickname");
+
+//Picture holder
+var pictureUrl = "";
 
 if (nickname == null) {
     nickname = "Anonymous";
@@ -19,11 +22,30 @@ if (nickname == null) {
 }
 
 
-//Add specific list to lists.
+//Get shop  products from backend (API)
 
+function getByNicknameFromServe(nickname) {
+    $.ajax({
+        type: 'GET',
+        url: 'http://localhost:8080/api/' + nickname,
+        dataType: "json",
+        success: function (data) {
+           var listProducts = getListFromStorage();
+           for(var i = 0; i < data.length; i++) {
+               listProducts.push(new Product(data[i].name,data[i].quantity,data[i].nickname))
+           }
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+        }
+    });
+}
+
+//Print all items to page.
 function writeListToPage() {
 
     $("#get-all-products").html("");
+    //Need real host not localhost.
+    //getByNicknameFromServe(nickname);
 
     var products = getListFromStorage();
 
@@ -36,28 +58,28 @@ function writeListToPage() {
             '<li class="swipeout">' +
             '<div class="swipeout-content item-content">' +
             '<div class="post_entry">' +
-            '<div class="post_thumb"><img onclick="capturePhoto();" src="images/photos/photo8.jpg" alt="" title="" id="'+ products[i].name +'" onclick=""/></div>' +
+            '<div class="post_thumb"><img onclick="capturePhoto();" src="images/page_photo.jpg" alt="" title="" id="testing123"/></div>' +
             '<div class="post_details">' +
-            '<h2>' + products[i].name + '  ' + products[i].quantity + 'x</h2>' +
+            '<h2>Product: ' + products[i].name + '<br/> Quantity: ' + products[i].quantity + '</h2>' +
             '<span class="post_author">by <a href="#">' + nickname + '</a></span>' +
             '</div>' +
             '<div class="post_swipe"><img src="images/swipe_more.png" alt="" title=""/></div>' +
             '</div>' +
             '</div>' +
             '<div class="swipeout-actions-right">' +
-            '<a href="#" onclick="deleteProductFromList(\'' + products[i].name + '\')"><img' +
-            'src="images/icons/white/heart.png" alt="" title=""/></a>' +
+            '<a href="#" onclick="deleteProductFromList(\'' + products[i].name + '\')"><img ' +
+            'src="images/icons/white/caution.png" alt="" title=""/></a>' +
             '</div>' +
             '</li>'
         );
     }
 }
-
+//deleteFromcache();
 //temp
 function deleteFromcache() {
     window.localStorage.clear();
 }
-//deleteFromcache();
+
 
 //Get list from storage according to nickname
 function getListFromStorage() {
@@ -65,17 +87,19 @@ function getListFromStorage() {
     return listArray;
 }
 
-//Delete product from list using name
+//Delete specific item from list by name.
 function deleteProductFromList(name) {
-    var listArray = JSON.parse(window.localStorage.getItem(nickname));
 
-    //Good old stream
+    var listArray = JSON.parse(window.localStorage.getItem(nickname));
+    //Good old stream. Filter without that item and write new list.
     var newArray = listArray.filter(function (e) {
         return e.name !== name;
     });
     var JSONArray = JSON.stringify(newArray);
     window.localStorage.setItem(nickname, JSONArray);
     writeListToPage();
+
+
 }
 
 //Write lists to storage with nickname as key.
@@ -89,7 +113,9 @@ function addNewProductToStorage(newProduct) {
     //First let us check if item already exists.
 
     // Using map to find index
-    var duplicateProductIndex = listArray.map(function (item) { return item.name; }).indexOf(newProduct.name);
+    var duplicateProductIndex = listArray.map(function (item) {
+        return item.name;
+    }).indexOf(newProduct.name);
     if (duplicateProductIndex > -1) {
         listArray[duplicateProductIndex].quantity += newProduct.quantity;
     } else {
@@ -130,9 +156,12 @@ function capturePhoto() {
     });
 }
 
+//What to do with picture
 function onSuccess(imageURI) {
 
-    $("#testImg").src = imageURI;
+    alert(imageURI);
+    $("#maybe").append("<img src='"+ imageURI +"'/>");
+    alert("oonSuccess");
 }
 
 function onFail(message) {
@@ -150,10 +179,10 @@ $$(document).on('pageInit', function (e) {
         var name = $("#add-new-shop-list-name").val();
         var quantity = $("#add-new-shop-list-number").val();
 
-        if(validateData(name, quantity)) {
-            var newProduct = new Product((name), parseInt(quantity));
+        if (validateData(name, quantity)) {
+            var newProduct = new Product((name), parseInt(quantity), nickname);
             addNewProductToStorage(newProduct);
-        }else {
+        } else {
             $("#add-new-shop-list-name").val("");
         }
 
@@ -170,13 +199,13 @@ $$(document).on('pageInit', function (e) {
 
 //Validation
 function validateData(name, amount) {
-    if(name.length < 1) {
+    if (name.length < 1) {
         $("#hidden-validation-name").text("Name must be at least 1 character long.");
         $("#hidden-validation-name").show().delay(3000).fadeOut();
         return false;
     }
-    if(!isInt(amount)) {
-        $("#hidden-validation-quantity").text("Amount must be inserted");
+    if (!isInt(amount) || amount < 1) {
+        $("#hidden-validation-quantity").text("Amount must be higher than 0");
         $("#hidden-validation-quantity").show().delay(3000).fadeOut();
         return false;
     }

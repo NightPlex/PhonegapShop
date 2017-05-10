@@ -2,17 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc4857d-2102-447d-9c81-d9971c57715c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/apple-touch-startup-image-320x460.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/apple-touch-startup-image-640x920.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/switch_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/switch_11_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/switch_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/switch_12_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/switch_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/images/switch_13_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/apple-touch-startup-image-320x460.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/apple-touch-startup-image-640x920.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/switch_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/switch_11_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/switch_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/switch_12_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/switch_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/images/switch_13_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/apple-touch-startup-image-320x460.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/apple-touch-startup-image-640x920.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/switch_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/switch_11_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/switch_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/switch_12_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/switch_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/images/switch_13_active.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageReleaseResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/googlemap.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/googlemap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/shop.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/shop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/browser.json" afterPath="$PROJECT_DIR$/platforms/browser/browser.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/shoplist.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/shoplist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/style.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/googlemap.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/googlemap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/shop.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/shop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/shoplist.html" afterPath="$PROJECT_DIR$/platforms/browser/www/shoplist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/style.css" afterPath="$PROJECT_DIR$/platforms/browser/www/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/googlemap.js" afterPath="$PROJECT_DIR$/www/js/googlemap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/shop.js" afterPath="$PROJECT_DIR$/www/js/shop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/shoplist.html" afterPath="$PROJECT_DIR$/www/shoplist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/style.css" afterPath="$PROJECT_DIR$/www/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +87,18 @@
       <file leaf-file-name="shop.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/shop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="755" column="13" lean-forward="false" selection-start-line="755" selection-start-column="13" selection-end-line="755" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -40,8 +107,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3171">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="129" column="88" lean-forward="true" selection-start-line="129" selection-start-column="88" selection-end-line="129" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -59,21 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>set</find>
-      <find>setN</find>
-      <find>setNi</find>
-      <find>setni</find>
-      <find>add-new-shop-list-name</find>
-      <find>camera</find>
-      <find>nickname</find>
-      <find>writeListToPage</find>
-      <find>set-nickname</find>
-      <find>nick</find>
-      <find>remove</find>
-      <find>op</find>
-      <find>open</find>
-      <find>open-</find>
-      <find>open-pop</find>
       <find>open-popup</find>
       <find>photos</find>
       <find>map.</find>
@@ -84,15 +136,29 @@
       <find>whitelisy</find>
       <find>whitelis</find>
       <find>whitelist</find>
+      <find>new Product</find>
+      <find>white</find>
+      <find>testImg</find>
+      <find>v</find>
+      <find>vg,</find>
+      <find>b</find>
+      <find>bg.jpg</find>
+      <find>bg.jp</find>
+      <find>bg.j</find>
+      <find>bg.</find>
+      <find>bg</find>
+      <find>.</find>
+      <find>.j</find>
+      <find>.jp</find>
+      <find>.jpg</find>
       <find>c</find>
-      <find>consol</find>
-      <find>console</find>
-      <find>console.log</find>
+      <find>cons</find>
+      <find>console.l</find>
       <find>console.log(</find>
+      <find>.png</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -108,16 +174,16 @@
         <option value="$PROJECT_DIR$/www/addList.html" />
         <option value="$PROJECT_DIR$/www/products.html" />
         <option value="$PROJECT_DIR$/www/addProduct.html" />
-        <option value="$PROJECT_DIR$/www/style.css" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/js/my-app.js" />
         <option value="$PROJECT_DIR$/www/js/sugar.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/shoplist.html" />
-        <option value="$PROJECT_DIR$/www/js/googlemap.js" />
         <option value="$PROJECT_DIR$/www/tabs.html" />
         <option value="$PROJECT_DIR$/www/map.html" />
+        <option value="$PROJECT_DIR$/www/shoplist.html" />
+        <option value="$PROJECT_DIR$/www/js/googlemap.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/style.css" />
         <option value="$PROJECT_DIR$/www/js/shop.js" />
       </list>
     </option>
@@ -151,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,7 +292,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,8 +300,8 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/mingw64/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -372,13 +438,13 @@
       <workItem from="1494338200580" duration="7678000" />
       <workItem from="1494345894192" duration="1441000" />
       <workItem from="1494347345562" duration="5953000" />
-      <workItem from="1494357433740" duration="550000" />
-      <workItem from="1494358011581" duration="522000" />
+      <workItem from="1494359626505" duration="3889000" />
+      <workItem from="1494397516384" duration="5614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63353000" />
+    <option name="totallyTimeSpent" value="71784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,24 +456,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1038" extended-state="1" />
+    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15817985" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33802816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2563818" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25194228" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973877" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15817985" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -422,77 +488,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/images/post_photo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/toogle.html" />
-    <entry file="file://$PROJECT_DIR$/www/about.html" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="228" column="16" lean-forward="false" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/jquery-1.10.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/framework7.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/productItem.js" />
-    <entry file="file://$PROJECT_DIR$/www/js/email.js" />
-    <entry file="file://$PROJECT_DIR$/www/shop.html" />
-    <entry file="file://$PROJECT_DIR$/www/js/productList.js" />
-    <entry file="file://$PROJECT_DIR$/www/addList.html" />
-    <entry file="file://$PROJECT_DIR$/www/addProduct.html" />
-    <entry file="file://$PROJECT_DIR$/www/products.html" />
-    <entry file="file://$PROJECT_DIR$/www/css/framework7.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24557">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/images/trans_black.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/images/switch_13_active.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/images/switch_13.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/images/photos/photo1.jpg" />
-    <entry file="file://$PROJECT_DIR$/www/images/photos/photo10.jpg" />
     <entry file="file://$PROJECT_DIR$/www/images/photos/photo13.jpg" />
     <entry file="file://$PROJECT_DIR$/www/images/photos/photo2.jpg" />
     <entry file="file://$PROJECT_DIR$/www/images/photos/photo7.jpg" />
@@ -519,13 +514,6 @@
     <entry file="file://$PROJECT_DIR$/www/images/icons/black/newspaper.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="848" column="1" lean-forward="false" selection-start-line="848" selection-start-column="1" selection-end-line="848" selection-end-column="1" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-camera/www/Camera.js">
@@ -582,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/shoplist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/spec.html" />
     <entry file="file://$PROJECT_DIR$/www/images/apple-touch-icon.png">
       <provider selected="true" editor-type-id="images">
@@ -596,6 +577,105 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/images/switch_12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/googlemap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/shoplist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/framework7.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="2027" column="1" lean-forward="false" selection-start-line="2027" selection-start-column="1" selection-end-line="2027" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/trans_black.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/switch_13_active.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/swipe_more.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/icons/white/lists.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/icons/white/map.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="129" column="88" lean-forward="true" selection-start-line="129" selection-start-column="88" selection-end-line="129" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/apple-touch-startup-image-320x460.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -610,40 +690,83 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/www/images/comments.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/page_photo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/post_photo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/icons/white/toogle.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/icons/white/dribbble.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/icons/white/googleplus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/icons/white/heart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/icons/white/caution.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="755" column="13" lean-forward="false" selection-start-line="755" selection-start-column="13" selection-end-line="755" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/map.html">
+    <entry file="file://$PROJECT_DIR$/www/spec/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/googlemap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3171">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/spec/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/shop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="21">
+          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding />
         </state>
       </provider>
