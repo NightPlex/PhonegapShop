@@ -58,7 +58,7 @@ function writeListToPage() {
             '<li class="swipeout">' +
             '<div class="swipeout-content item-content">' +
             '<div class="post_entry">' +
-            '<div class="post_thumb"><img onclick="capturePhoto();" src="images/page_photo.jpg" alt="" title="" id="testing123"/></div>' +
+            '<div class="post_thumb"><img onclick="capturePhoto('/'+ products[i].name +'/');" src="images/page_photo.jpg" alt="" title="" id="'+ products[i].name +'"/></div>' +
             '<div class="post_details">' +
             '<h2>Product: ' + products[i].name + '<br/> Quantity: ' + products[i].quantity + '</h2>' +
             '<span class="post_author">by <a href="#">' + nickname + '</a></span>' +
@@ -149,18 +149,18 @@ function setNickname() {
 
 //Photo related stuff:
 //Start of camera function::
-function capturePhoto() {
-    navigator.camera.getPicture(onSuccess, onFail, {
+function capturePhoto(id) {
+    navigator.camera.getPicture(onSuccess(id), onFail, {
         quality: 50,
         destinationType: Camera.DestinationType.FILE_URI
     });
 }
 
 //What to do with picture
-function onSuccess(imageURI) {
+function onSuccess(imageURI, id) {
 
     alert(imageURI);
-    $("#maybe").append("<img src='"+ imageURI +"'/>");
+    $("#id").src(imageURI);
     alert("oonSuccess");
 }
 
