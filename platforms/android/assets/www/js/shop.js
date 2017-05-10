@@ -2,6 +2,7 @@
  * NightPlex
  */
 
+//Constructor for shop items
 function Product(name, quantity) {
     this.name = name;
     this.quantity = quantity;
@@ -10,7 +11,6 @@ function Product(name, quantity) {
 
 //nickname for API
 var nickname = window.localStorage.getItem("nickname");
-console.log(nickname);
 
 if (nickname == null) {
     nickname = "Anonymous";
@@ -52,24 +52,22 @@ function writeListToPage() {
         );
     }
 }
-//deleteFromcache();
-
-//Get list from storage according to nickname
-function getListFromStorage() {
-    console.log(" this is nick: " + nickname);
-    var listArray = JSON.parse(window.localStorage.getItem(nickname));
-    return listArray;
-}
 
 //temp
 function deleteFromcache() {
     window.localStorage.clear();
 }
+//deleteFromcache();
 
-function deleteProductFromList(name) {
-
+//Get list from storage according to nickname
+function getListFromStorage() {
     var listArray = JSON.parse(window.localStorage.getItem(nickname));
-    console.log(listArray);
+    return listArray;
+}
+
+//Delete product from list using name
+function deleteProductFromList(name) {
+    var listArray = JSON.parse(window.localStorage.getItem(nickname));
 
     //Good old stream
     var newArray = listArray.filter(function (e) {
@@ -78,8 +76,6 @@ function deleteProductFromList(name) {
     var JSONArray = JSON.stringify(newArray);
     window.localStorage.setItem(nickname, JSONArray);
     writeListToPage();
-
-
 }
 
 //Write lists to storage with nickname as key.
