@@ -2,10 +2,11 @@
  * NightPlex
  */
 
-function Product(name, quantity, nickname) {
+function Product(name, quantity, nickname, imageUrl) {
     this.name = name;
     this.quantity = quantity;
     this.nickname = nickname;
+    this.imageUrl = imageUrl;
 }
 
 
@@ -30,10 +31,10 @@ function getByNicknameFromServe(nickname) {
         url: 'http://localhost:8080/api/' + nickname,
         dataType: "json",
         success: function (data) {
-           var listProducts = getListFromStorage();
-           for(var i = 0; i < data.length; i++) {
-               listProducts.push(new Product(data[i].name,data[i].quantity,data[i].nickname))
-           }
+            var listProducts = getListFromStorage();
+            for (var i = 0; i < data.length; i++) {
+                listProducts.push(new Product(data[i].name, data[i].quantity, data[i].nickname))
+            }
         },
         error: function (jqXHR, textStatus, errorThrown) {
         }
@@ -58,7 +59,7 @@ function writeListToPage() {
             '<li class="swipeout">' +
             '<div class="swipeout-content item-content">' +
             '<div class="post_entry">' +
-            '<div class="post_thumb"><img onclick="capturePhoto('/'+ products[i].name +'/');" src="images/page_photo.jpg" alt="" title="" id="'+ products[i].name +'"/></div>' +
+            '<div class="post_thumb"><img onclick="capturePhoto(\'' + products[i].name + '\');" src="images/page_photo.jpg" alt="" title="" /></div>' +
             '<div class="post_details">' +
             '<h2>Product: ' + products[i].name + '<br/> Quantity: ' + products[i].quantity + '</h2>' +
             '<span class="post_author">by <a href="#">' + nickname + '</a></span>' +
@@ -149,19 +150,35 @@ function setNickname() {
 
 //Photo related stuff:
 //Start of camera function::
-function capturePhoto(id) {
-    navigator.camera.getPicture(onSuccess(id), onFail, {
+function capturePhoto(name) {
+    navigator.camera.getPicture(onSuccess(name), onFail, {
         quality: 50,
         destinationType: Camera.DestinationType.FILE_URI
     });
 }
 
 //What to do with picture
-function onSuccess(imageURI, id) {
+function onSuccess(imageURI, name) {
+    addImageURI(name,imageURI);
+}
 
-    alert(imageURI);
-    $("#id").src(imageURI);
-    alert("oonSuccess");
+//Add new image to product after click and success
+function addImageURI(name, imageURI) {
+
+    var arrayList = getListFromStorage();
+    arrayList
+
+    var getProduct = arrayList.map(function (item) {
+        return item.name;
+    }).indexOf(name);
+    if (getProduct > -1) {
+        arrayList[getProduct].imageUrl += imageURI;
+    }
+    var JSONArray = JSON.stringify(arrayList);
+    window.localStorage.setItem(nickname, JSONArray);
+    writeListToPage();
+
+
 }
 
 function onFail(message) {
